@@ -1,0 +1,43 @@
+{
+  materials: [
+    {
+      name: 'unlit_material',
+      parameters: [
+        {
+          baseColor: 'frame_base',
+        },
+        {
+          baseColorTint: [
+            0.80000000000000004,
+            0.80000000000000004,
+            0.80000000000000004,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/models/frame_lower_left.obj',
+    name: 'frame_lower_left',
+    recenter: 'root',
+    scale: 1.0079629999999999,
+  },
+  version: '0.54:1',
+}

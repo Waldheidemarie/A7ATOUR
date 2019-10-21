@@ -1,0 +1,76 @@
+{
+  materials: [
+    {
+      name: 'Material.001',
+      parameters: [
+        {
+          baseColor: null,
+        },
+        {
+          baseColorTint: [
+            0.038136999999999997,
+            0.016618999999999998,
+            0.089999999999999997,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 0.14280000000000001,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+    {
+      name: 'None',
+      parameters: [
+        {
+          baseColor: 'page1',
+        },
+        {
+          baseColorTint: [
+            0.80000000000000004,
+            0.80000000000000004,
+            0.80000000000000004,
+            1,
+          ],
+        },
+        {
+          metallic: 1,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/obj_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/models/roomB.obj',
+    name: 'roomB',
+    recenter: 'root',
+    scale: 0.000101,
+  },
+  samplers: [
+    {
+      file: 'sampledata/models/page1.png',
+      name: 'page1',
+      pipeline_name: 'page1.png',
+    },
+  ],
+  version: '0.54:1',
+}
